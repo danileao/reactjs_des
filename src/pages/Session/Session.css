@@ -1,0 +1,98 @@
+.loading {
+  background: #000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.8;
+  text-align: center;
+}
+img {
+  height: auto;
+  width: auto;
+  display: table-cell;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+body,
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #e4e4e4;
+}
+
+tr th {
+  width: 290px;
+  background: #1e5168;
+  color: #fff;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+}
+th,
+td {
+  padding: 1.1em 1em;
+}
+
+td {
+  color: #1e5168;
+}
+
+.icon {
+  margin-left: 19px;
+}
+
+.div-table {
+  margin: -24px auto 60px auto;
+  width: 50%;
+  padding: 10px;
+  background: #fff;
+}
+
+.tblSession {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.container {
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.tableSelected {
+  background: #f9eee8;
+}
+
+.iconSearch {
+  background: #1e5168;
+  color: #fff;
+}
+
+.inputSearch {
+  font-family: Arial, FontAwesome;
+}
+
+.direitos {
+  text-align: center;
+  width: 100%;
+  color: #b3aeae;
+  font-size: 22px;
+}
+
+.logo {
+  margin-top: 7%;
+}
